@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { useScrollSmooth } from './../../hooks/useScrollSmooth.ts'
+import { useScrollSmooth } from './../../hooks/useScrollSmooth'
 
 export default function Header() {
   const [show, setShow] = useState(true)

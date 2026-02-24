@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 import AOS from "aos"
 import Link from 'next/link'
-import { useScrollSmooth } from './../../hooks/useScrollSmooth.ts'
+import { useScrollSmooth } from './../../hooks/useScrollSmooth'
 
 export default function Hero() {
   const { handleScrollDown } = useScrollSmooth()
