@@ -1,0 +1,70 @@
+.hero {
+  background-image: url(/images/kevin-stefanie/bg-hero-mobile.png);
+  background-position-x: 50%;
+}
+
+.hero-action {
+  position: absolute;
+  right: 38px;
+  bottom: 105px;
+  z-index: 20;
+}
+
+.hero-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 9999px;
+  background: #223C29;
+  border: 1px solid #223C29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px 0px #00000013;
+  transition: all .25s ease;
+}
+
+.hero-circle img {
+  width: 24px;
+  height: 24px;
+}
+
+.hero-circle:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+}
+
+.wedding {
+  background-image: url(/images/kevin-stefanie/bg-the-wedding.png);
+}
+
+.date-wedding {
+  background-image: url(/images/kevin-stefanie/bg-jadwal.png);
+  background-position-x: 50%;
+}
+
+.location {
+  background-image: url(/images/kevin-stefanie/bg-location.jpg);
+}
+
+.footer {
+  background-image: url(/images/kevin-stefanie/bg-footer.png);
+  background-position-x: 35%;
+}
+
+@media (min-width: 448px) {
+  .hero {
+    background-image: url(/images/kevin-stefanie/bg-hero.png);
+    background-position-x: 0;
+  }
+
+  .date-wedding {
+    background-position-x: 0;
+    background-position-y: 50%;
+  }
+
+  .footer {
+    background-position-x: 0;
+  }
+}
+
